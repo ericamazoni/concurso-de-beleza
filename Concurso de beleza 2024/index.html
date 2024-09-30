@@ -10,58 +10,42 @@
     
     <form method="post" enctype="multipart/form-data">
       <fieldset id="upload">
-      <legend>Concurso de fotografia</legend>
+      <legend>Concurso de fotografia 2024</legend>
     
-      <table border="0">
-        <tr>
-          <td><label for="idFoto">Foto</label></td>
-          <td><input type="file" name="foto" id="idFoto" required=""></td>
-        </tr>
-    
-        <tr>
-          <td><label for="idData">Data do clique</label></td>
-          <td><input type="date" name="data" id="idData" min="2017-01-01" max="2017-12-31" required=""></td>
-        </tr>
-    
-        <tr>
-          <td><label for="idCategoria">Categoria</label></td>
-          <td>
-          <select name="categoria" id="idCategoria">
-            <option value="N">Natureza</option>
-            <option value="P">Pessoas</option>
-            <option value="C">Cidades</option>
-          </select>
-          </td>
-        </tr>
-    
-        <tr>
-          <td><label for="idDescricao">Descri��o da foto</label></td>
-          <td><input type="text" name="descricao" id="idDescricao" required="" size="50"></td>
-        </tr>
-    
-        <tr>
-          <td><label for="idNome"> Nome do autor</label></td>
-          <td><input type="text" name="nome" id="idNome" size="50" required=""></td>
-        </tr>
-    
-        <tr>
-          <td><label for="idEmail">E-mail do autor</label></td>
-          <td><input type="email" name="email" id="idEmail" size="50" required=""></td>
-        </tr>
-    
-        <tr>
-          <td></td>
-          <td><input type="checkbox" name="autorizacao" id="idAutorizacao">Autorizo o uso da fotografia</td>
-        </tr>
-    
-        <tr>
-          <td></td>
-          <td><input type="submit" name="enviar" value="Enviar"></td>
-        </tr>
-      </table>
-      </fieldset>
+           <label for="iFoto">Foto:</label>
+           <input type="file" name="foto" id="idFoto" riquered>
+
+           <label for="idData">Data do clique:</label>
+           <input type="date" name="data" id="idData" min="2020-02-03" max="2020-12-31" riquered>
+
+            <label for="idCategoria">Categoria:</label>
+            <select name="categoria" id="idCategoria">
+                    <option value="N">Natureza</option>
+                    <option value="P">Pessoa</option>
+                    <option value="C">Categoria</option>
+            </select>
+                
+            <label for="idDescricao">Descricao da foto:</label>
+            <input type="text" name="Descricao" id="idDescricao"  size ="50" riquered>
+
+            <label for="idNome"> Nome do autor:</label>
+            <input type="text" name="nome" id="idNome" size="50" required>
+
+            <label for="idEmail">E-mail do autor:</label>
+            <input type="email" name="email" id="idEmail" size="50" required>
+
+            <label for="idAutorizacao">
+                <input type="checkbox" name="autorizacao" id="idAutorizacao">autorizo o uso da fotografia
+            </label>
+                
+            <input type="submit" name="enviar" value="Eviar">
+            
+        </fieldset>
     </form>
-    
+
+    </body>
+</html>
+        
     </body>
     </html>
     
